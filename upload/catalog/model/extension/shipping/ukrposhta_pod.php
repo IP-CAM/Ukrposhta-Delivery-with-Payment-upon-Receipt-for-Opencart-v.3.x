@@ -18,8 +18,8 @@ class ModelExtensionShippingUkrposhtaPod extends Model {
 		if ($status) {
 			$quote_data = array();
 
-			$quote_data['ukrposhta_pod'] = array(
-				'code'         => 'ukrposhta.pod',
+			$quote_data['pod'] = array(
+				'code'         => 'ukrposhta_pod.pod',
 				'title'        => $this->language->get('text_description'),
 				'cost'         => 0,
 				'tax_class_id' => 0,
@@ -27,7 +27,7 @@ class ModelExtensionShippingUkrposhtaPod extends Model {
             );
 
 			$method_data = array(
-				'code'       => 'ukrposhta',
+				'code'       => 'ukrposhta_pod',
 				'title'      => $this->language->get('text_title'),
 				'quote'      => $quote_data,
 				'sort_order' => $this->config->get('shipping_ukrposhta_pod_sort_order'),
