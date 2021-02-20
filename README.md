@@ -1,1 +1,1 @@
-# Засіб доставки Укрпошти з оплатою при отриманні для Opencart 3.x
+# Ukrposhta delivery method with payment upon receipt for Opencart 3.x 
